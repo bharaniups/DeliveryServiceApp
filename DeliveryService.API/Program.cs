@@ -1,4 +1,4 @@
-﻿using DeliveryService.Application.Interfaces;
+using DeliveryService.Application.Interfaces;
 using DeliveryService.Infrastructure;
 using DeliveryService.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -17,7 +17,7 @@ builder.Services.AddScoped<IDeliveryRepository, DeliveryRepository>();
 
 // 👉 API Key Config
 var apiKey = builder.Configuration["ApiSettings:ApiKey"] ?? "default-key";
-builder.Services.AddSingleton(new ApiKeyOptions { ApiKey = apiKey });
+//builder.Services.AddSingleton(new ApiKeyOptions { ApiKey = apiKey });
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
