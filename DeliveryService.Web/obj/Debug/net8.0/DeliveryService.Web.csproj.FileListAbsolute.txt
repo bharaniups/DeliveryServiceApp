@@ -1,0 +1,8 @@
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Web\obj\Debug\net8.0\DeliveryService.Web.csproj.AssemblyReference.cache
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Web\obj\Debug\net8.0\DeliveryService.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Web\obj\Debug\net8.0\DeliveryService.Web.AssemblyInfoInputs.cache
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Web\obj\Debug\net8.0\DeliveryService.Web.AssemblyInfo.cs
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Web\obj\Debug\net8.0\DeliveryService.Web.csproj.CoreCompileInputs.cache
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Web\obj\Debug\net8.0\DeliveryService.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Web\obj\Debug\net8.0\DeliveryService.Web.RazorAssemblyInfo.cache
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Web\obj\Debug\net8.0\DeliveryService.Web.RazorAssemblyInfo.cs
