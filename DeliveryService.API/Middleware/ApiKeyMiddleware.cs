@@ -1,29 +1,24 @@
-﻿public class ApiKeyMiddleware
+public class ApiKeyMiddleware
 {
     private readonly RequestDelegate _next;
-    private readonly ApiKeyOptions _options;
+    private const string API_KEY_HEADER_NAME = "Authorization";
+    private const string EXPECTED_API_KEY = "SuperSecretDemoKey123";
 
-    public ApiKeyMiddleware(RequestDelegate next, ApiKeyOptions options)
+    public ApiKeyMiddleware(RequestDelegate next)
     {
         _next = next;
-        _options = options;
     }
 
-    public async Task InvokeAsync(HttpContext context)
+    public async Task Invoke(HttpContext context)
     {
-        if (!context.Request.Headers.TryGetValue("x-api-key", out var providedKey) ||
-            _options.ApiKey != providedKey)
+        if (!context.Request.Headers.TryGetValue(API_KEY_HEADER_NAME, out var providedKey) ||
+            providedKey != EXPECTED_API_KEY)
         {
-            context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            context.Response.StatusCode = 401;
             await context.Response.WriteAsync("Unauthorized: Invalid API Key");
             return;
         }
 
         await _next(context);
     }
-}
-
-public class ApiKeyOptions
-{
-    public string ApiKey { get; set; } = string.Empty;
 }
