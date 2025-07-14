@@ -1,0 +1,15 @@
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\bin\Debug\net8.0\DeliveryService.Application.deps.json
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\bin\Debug\net8.0\DeliveryService.Application.dll
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\bin\Debug\net8.0\DeliveryService.Application.pdb
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\bin\Debug\net8.0\DeliveryService.Domain.dll
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\bin\Debug\net8.0\DeliveryService.Domain.pdb
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.csproj.AssemblyReference.cache
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.AssemblyInfoInputs.cache
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.AssemblyInfo.cs
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.csproj.CoreCompileInputs.cache
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\Delivery.E597DE77.Up2Date
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.dll
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\refint\DeliveryService.Application.dll
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.pdb
+C:\Users\rmz1rdk\DeliveryService\DeliveryService.Application\obj\Debug\net8.0\ref\DeliveryService.Application.dll
